@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  height: 64px;
+  border-bottom: 1px solid gray;
+}
+
+#body {
+  height: 100%;
+
+  width: 1024px;
+  margin: 0 auto;
+  /* 자식이부모를 기준으로 가운데 정렬. */
+}
+#footer {
+  height: 100px;
+  background-color: rgb(230, 230, 230);
+}
+#banner {
+  height: 300px;
+  background-color: yellow;
+}
+#header-area {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+#header-area > img {
+  height: 10rem;
+  width: 128px;
+}
+#banner > img {
+  height: 100%;
+  width: 100%;
+}
+
+#body > h1 {
+  margin-top: 16px;
+}
+#product-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 8px;
+}
+.product-card {
+  background-color: whitesmoke;
+  width: 180px;
+  height: 280px;
+  border: 1px solid rgb(230, 230, 230);
+  margin-top: 12px;
+  border-radius: 8px;
+  margin-left: 10px;
+  
+}
+
+.product-img {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+
+.product-card > product-content {
+  margin: 2px;
+}
+.product-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+.product-price {
+  font-weight: 600;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#product-seller {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.product-avatar {
+  width: 24px;
+  height: 20px;
+}
