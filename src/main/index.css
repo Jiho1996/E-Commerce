@@ -8,7 +8,7 @@
 }
 
 #body {
-  height: 100%;
+  height: 100vh; /* 윈도우 창 크기 기준 100 */
 
   width: 1024px;
   margin: 0 auto;
@@ -89,4 +89,9 @@
 .product-avatar {
   width: 24px;
   height: 20px;
+}
+
+.product-link {
+  color : inherit; /* 원래 색상 */
+  text-decoration: none; /* a태그일때 밑줄 삭제. */
 }
