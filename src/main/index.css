@@ -1,39 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-#header {
-  height: 64px;
-  border-bottom: 1px solid gray;
-}
 
-#body {
-  height: 100vh; /* 윈도우 창 크기 기준 100 */
-
-  width: 1024px;
-  margin: 0 auto;
-  /* 자식이부모를 기준으로 가운데 정렬. */
-}
-#footer {
-  height: 100px;
-  background-color: rgb(230, 230, 230);
-}
 #banner {
   height: 300px;
   background-color: yellow;
 }
-#header-area {
-  width: 1024px;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
 
-#header-area > img {
-  height: 10rem;
-  width: 128px;
-}
 #banner > img {
   height: 100%;
   width: 100%;
@@ -49,6 +19,7 @@
   margin-left: 8px;
 }
 .product-card {
+  
   background-color: whitesmoke;
   width: 180px;
   height: 280px;
@@ -69,21 +40,20 @@
   margin: 2px;
 }
 .product-content {
-  align-items: center;
+  align-items: baseline;
   display: flex;
   flex-direction: column;
   margin: 8px;
 }
+
 .product-price {
   font-weight: 600;
   margin-top: 4px;
-  margin-bottom: 4px;
 }
 
-#product-seller {
-  margin-top: 12px;
+.product-seller {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .product-avatar {

@@ -20,12 +20,7 @@ function MainPage(){
     
     return (
     <div>
-        <div id="header">
-      <div id="header-area">
-        <img src="images/gmarket.png" alt="logo" />
-      </div>
-    </div>
-    <div id="body">
+        
       <div id="banner">
         <img src="images/banner.jpg" alt="banner" />
       </div>
@@ -34,7 +29,7 @@ function MainPage(){
           {products.map(function(product, index){
                 return(
                     <div className='product-card'>
-                        <Link className='product-link' to={`/products/${index}`}>
+                        <Link className='product-link' to={`/products/${product.id}`}>
                             <img className='product-img' src={product.imgUrl}/>
                         <div className='product-content'>
                             <span className='product-name'>{product.name}</span>
@@ -51,8 +46,7 @@ function MainPage(){
           }
           
       </div>
-    </div>
-    <div id="footer"></div>
+    
     </div>
     );
 }

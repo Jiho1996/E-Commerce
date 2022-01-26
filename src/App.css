@@ -1,6 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+
+}
+
 html, body, #root, #root > div{
   height: 100%;
 }
 #body{
   min-height: 100vh;
+}
+#header {
+  height: 64px;
+  border-bottom: 1px solid gray;
+}
+
+#header-area {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header-area img {
+  height: 10rem;
+  width: 128px;
+}
+
+#body {
+  height: 100vh; /* 윈도우 창 크기 기준 100 */
+
+  width: 1024px;
+  margin: 0 auto;
+  /* 자식이부모를 기준으로 가운데 정렬. */
+}
+#footer {
+  height: 100px;
+  background-color: rgb(230, 230, 230);
 }

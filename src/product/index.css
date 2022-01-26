@@ -1,0 +1,48 @@
+
+#product-box{
+    width : 1024px;
+    height : 500px;
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    flex-direction: row;
+}
+.product-contents{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+#product-img{
+    width: 50%;
+    height : 100%;
+}
+
+hr.one{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 500px;color: red;
+}
+
+
+.product-seller{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#product-description{
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#createdAt{
+    color :rgb(204,204,204)
+}
